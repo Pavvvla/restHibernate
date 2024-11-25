@@ -1,0 +1,10 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="ru.javavision.model.SKIRTS" table="SKIRTS">
+        <id name="NAME" column="NAME"/>
+        <property name="BRAND" column="BRAND"/>
+    </class>
+
+</hibernate-mapping>
